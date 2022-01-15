@@ -1,3 +1,4 @@
 https://www.youtube.com/watch?v=kWUDTZhxKZI
 https://docs.openzeppelin.com/upgrades-plugins/1.x/hardhat-upgrades
 https://hardhat.org/guides/typescript.html
+https://docs.openzeppelin.com/openzeppelin/upgrades

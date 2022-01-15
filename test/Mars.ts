@@ -1,6 +1,9 @@
 import hre from 'hardhat';
 import assert from 'assert';
 
+//using the openzeppelin upgrades test helpers is very important as it helps prevent some bad errors
+//https://docs.openzeppelin.com/upgrades-plugins/1.x/hardhat-upgrades
+
 before('get factories', async function(){
     this.Mars = await hre.ethers.getContractFactory('Mars');
     this.MarsV2 = await hre.ethers.getContractFactory('MarsV2');
