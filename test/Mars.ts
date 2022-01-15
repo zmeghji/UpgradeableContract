@@ -6,8 +6,8 @@ before('get factories', async function(){
 })
 
 it('goes to mars', async function(){
-    const mars = await this.Mars.deploy();
-    // const mars = await hre.upgrades.deployProxy(this.Mars);
+    // const mars = await this.Mars.deploy();
+    const mars = await hre.upgrades.deployProxy(this.Mars);
 
     assert(await mars.name() === 'Mars');
 })
